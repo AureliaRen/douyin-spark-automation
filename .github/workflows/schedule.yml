@@ -1,8 +1,6 @@
 name: DouYin Spark Flow 定时（独立仓库）
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "23 17 * * *"  # 每天 16:05 UTC = 北京时间 00:05
 jobs:
   run-main:
     timeout-minutes: 20
